@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+#Middle
+{
+    width: inherit;
+    float:none;
+    min-height: 500pt;
+}
+#Left
+{
+    text-align: left;
+    align-content: stretch;
+    float: left;
+    min-width: 25%;
+}
+#Center
+{
+    text-align: center;
+    align-content: space-around;
+    float: left;
+    min-width: 50%;
+}
+#Right
+{
+    text-align: right;
+    align-content: space-around;
+    float: none;
+    min-width: 25%;
+}
