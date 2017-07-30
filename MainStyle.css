@@ -15,17 +15,20 @@
 {
     text-align: left;
     min-height: inherit;
+    margin-inside: 1%;
 }
 #Center
 {
     text-align: center;
     min-height: inherit;
+    margin-inside: 1%;
 }
 
 #Right
 {
     text-align: right;
     min-height: inherit;
+    margin-inside: 1%;
 }
 #Bottom
 {

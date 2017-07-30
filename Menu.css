@@ -19,8 +19,8 @@
 #Top ul li
 {
     min-width: 50px;
-    width: 15%;
     max-width: 500px;
+    overflow: hidden;
     display: inline-block;
     background-color: #434343;
 }

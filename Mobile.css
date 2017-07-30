@@ -31,3 +31,8 @@
     width: 100%;
     overflow: auto;
 }
+
+#Menu ul li
+{
+    width: 50px;
+}
