@@ -11,15 +11,15 @@
 {
     text-align: left;
     align-content: stretch;
-    float: left;
-    width: 30%;
+    float: right;
+    width: 100%;
     overflow: auto;
 }
 #Center
 {
     text-align: center;
     align-content: space-around;
-    float: none;
+    float: right;
     width: 70%;
     overflow: auto;
 }
@@ -28,6 +28,6 @@
     text-align: right;
     align-content: space-around;
     float: right;
-    width: 100%;
+    width: 30%;
     overflow: auto;
 }
