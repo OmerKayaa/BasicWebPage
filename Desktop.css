@@ -3,27 +3,31 @@
 #Middle
 {
     width: inherit;
-    float:none;
+    float:left;
     min-height: 500pt;
+    overflow: auto;
 }
 #Left
 {
     text-align: left;
     align-content: stretch;
-    float: left;
-    min-width: 25%;
+    float: inherit;
+    width: 25%;
+    overflow: auto;
 }
 #Center
 {
     text-align: center;
     align-content: space-around;
-    float: left;
-    min-width: 50%;
+    float: inherit;
+    width: 50%;
+    overflow: auto;
 }
 #Right
 {
     text-align: right;
     align-content: space-around;
-    float: none;
-    min-width: 25%;
+    float: inherit;
+    width: 25%;
+    overflow: auto;
 }
