@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-#Top
+#Menu
 {
     background-color: #222;
 }
@@ -9,14 +9,14 @@
     margin: 0 auto;
     text-align: center;
 }
-#Top ul
+#Menu ul
 {
     list-style-type: none;
     padding: 0;
     margin: 0;
     position: relative;
 }
-#Top ul li
+#Menu ul li
 {
     min-width: 50px;
     max-width: 500px;
@@ -24,22 +24,22 @@
     display: inline-block;
     background-color: #434343;
 }
-#Top ul li:hover
+#Menu ul li:hover
 {
     background-color: #333;
 }
-#Top ul li a, visited
+#Menu ul li a, visited
 {
     color: #CCC;
     display: block;
     padding: 15px;
     text-decoration: none;
 }
-#Top ul li:hover ul
+#Menu ul li:hover ul
 {
     display: block;
 }
-#Top ul ul
+#Menu ul ul
 {
     display: none;
     position: absolute;
@@ -48,11 +48,11 @@
     border-top: 0;
     margin-left: -5px;
 }
-#Top ul ul li
+#Menu ul ul li
 {
     display: block;
 }
-#Top ul ul li a:hover
+#Menu ul ul li a:hover
 {
     color: #699;
 }
