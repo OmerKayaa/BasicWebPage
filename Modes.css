@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@media (min-width: 1281px)
+{
+    #Middle
+    {
+        width: inherit;
+        float:left;
+        min-height: 500pt;
+        overflow: auto;
+    }
+    #Left
+    {
+        text-align: left;
+        align-content: stretch;
+        float: inherit;
+        width: 25%;
+        overflow: auto;
+    }
+    #Center
+    {
+        text-align: center;
+        align-content: space-around;
+        float: inherit;
+        width: 50%;
+        overflow: auto;
+    }
+    #Right
+    {
+        text-align: right;
+        align-content: space-around;
+        float: inherit;
+        width: 25%;
+        overflow: auto;
+    }
+
+    #Menu ul li
+    {
+        width: 200px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1280px)
+{
+    #Middle
+    {
+        width: inherit;
+        float:none;
+        min-height: 500pt;
+        overflow: auto;
+    }
+    #Left
+    {
+        text-align: left;
+        align-content: stretch;
+        float: left;
+        width: 30%;
+        overflow: auto;
+    }
+    #Center
+    {
+        text-align: center;
+        align-content: space-around;
+        float: none;
+        width: 70%;
+        overflow: auto;
+    }
+    #Right
+    {
+        text-align: right;
+        align-content: space-around;
+        float: right;
+        width: 100%;
+        overflow: auto;
+    }
+
+    #Menu ul li
+    {
+        width: 120px;
+    }
+}
+
+@media (max-width: 767px)
+{
+    #Middle
+    {
+        width: inherit;
+        float:none;
+        min-height: 500pt;
+        overflow: auto;
+    }
+    #Left
+    {
+        text-align: left;
+        align-content: stretch;
+        float: inherit;
+        width: 100%;
+        overflow: auto;
+    }
+    #Center
+    {
+        text-align: center;
+        align-content: space-around;
+        float: inherit;
+        width: 100%;
+        overflow: auto;
+    }
+    #Right
+    {
+        text-align: right;
+        align-content: space-around;
+        float: inherit;
+        width: 100%;
+        overflow: auto;
+    }
+
+    #Menu ul li
+    {
+        width: 50px;
+    }
+}
