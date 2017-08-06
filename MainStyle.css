@@ -4,32 +4,37 @@
 #Top
 {
     width: inherit;
-    clear:none;
 }
 #Middle
 {
     width: inherit;
     min-height: 500pt;
+    margin-inside: 1%;
 }
+
+#Middle > *
+{
+    min-height: inherit;
+    margin-inside: inherit;
+}
+
 #Left
 {
     text-align: left;
-    min-height: inherit;
-    margin-inside: 1%;
+    background-color: #222;
 }
 #Center
 {
     text-align: center;
-    min-height: inherit;
-    margin-inside: 1%;
+    background-color: #444;
 }
 
 #Right
 {
     text-align: right;
-    min-height: inherit;
-    margin-inside: 1%;
+    background-color: #333;
 }
+
 #Bottom
 {
     text-align: center;
