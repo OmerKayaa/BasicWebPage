@@ -27,28 +27,24 @@
     {
         float:left;
         min-height: 500pt;
-        overflow: auto;
     }
     #Left
     {
         text-align: left;
         align-content: stretch;
         float: inherit;
-        overflow: auto;
     }
     #Center
     {
         text-align: center;
         align-content: space-around;
         float: inherit;
-        overflow: auto;
     }
     #Right
     {
         text-align: right;
         align-content: space-around;
         float: inherit;
-        overflow: auto;
     }
 
     #Menu ul li
@@ -84,28 +80,24 @@
         width: inherit;
         float:none;
         min-height: 500pt;
-        overflow: auto;
     }
     #Left
     {
         text-align: left;
         align-content: stretch;
         float: left;
-        overflow: auto;
     }
     #Center
     {
         text-align: center;
         align-content: space-around;
         float: none;
-        overflow: auto;
     }
     #Right
     {
         text-align: right;
         align-content: space-around;
         float: right;
-        overflow: auto;
     }
 
     #Menu ul li
@@ -141,28 +133,24 @@
         width: inherit;
         float:none;
         min-height: 500pt;
-        overflow: auto;
     }
     #Left
     {
         text-align: left;
         align-content: stretch;
         float: inherit;
-        overflow: auto;
     }
     #Center
     {
         text-align: center;
         align-content: space-around;
         float: inherit;
-        overflow: auto;
     }
     #Right
     {
         text-align: right;
         align-content: space-around;
         float: inherit;
-        overflow: auto;
     }
 
     #Menu ul li
