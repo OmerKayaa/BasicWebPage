@@ -1,15 +1,13 @@
 @charset "UTF-8";
 
 /**/
-#Top
-{
-    width: inherit;
-}
+
 #Middle
 {
     width: inherit;
     min-height: 500pt;
     margin-inside: 1%;
+    align-content: center;
 }
 
 #Middle > *
@@ -21,28 +19,33 @@
 #Left
 {
     text-align: left;
+    overflow: auto;
 }
 #Center
 {
     text-align: center;
+    overflow: auto;
 }
 
 #Right
 {
     text-align: right;
+    overflow: auto;
 }
 
 #Bottom
 {
     text-align: center;
-    width: inherit;
-    min-height: 50pt;
+    min-height: 50px;
+    overflow: auto;
     clear: both;
 }
 /**/
 
 body
 {
+    word-break: keep-all;
+    word-wrap: break-word;
     width: 100%;
     height: 100%;
     max-width: 100%;
