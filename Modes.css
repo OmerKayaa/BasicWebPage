@@ -3,9 +3,28 @@
 /* Desktop */
 @media (min-width: 1281px)
 {
+    .FullSizeContent
+    {
+        width: 100%;
+    }
+
+    .TripleSizeContent
+    {
+        width: 75%;
+    }
+
+    .DoubleSizeContent
+    {
+        width: 50%;
+    }
+
+    .SimpleContent
+    {
+        width: 25%;
+    }
+
     #Middle
     {
-        width: inherit;
         float:left;
         min-height: 500pt;
         overflow: auto;
@@ -15,7 +34,6 @@
         text-align: left;
         align-content: stretch;
         float: inherit;
-        width: 25%;
         overflow: auto;
     }
     #Center
@@ -23,7 +41,6 @@
         text-align: center;
         align-content: space-around;
         float: inherit;
-        width: 50%;
         overflow: auto;
     }
     #Right
@@ -31,7 +48,6 @@
         text-align: right;
         align-content: space-around;
         float: inherit;
-        width: 25%;
         overflow: auto;
     }
 
@@ -44,6 +60,25 @@
 /* Tablet */
 @media (min-width: 768px) and (max-width: 1280px)
 {
+    .FullSizeContent
+    {
+        width: 100%;
+    }
+
+    .TripleSizeContent
+    {
+        width: 100%;
+    }
+
+    .DoubleSizeContent
+    {
+        width: 66.66666%;
+    }
+
+    .SimpleContent
+    {
+        width: 33.33333%;
+    }
     #Middle
     {
         width: inherit;
@@ -56,7 +91,6 @@
         text-align: left;
         align-content: stretch;
         float: left;
-        width: 30%;
         overflow: auto;
     }
     #Center
@@ -64,7 +98,6 @@
         text-align: center;
         align-content: space-around;
         float: none;
-        width: 70%;
         overflow: auto;
     }
     #Right
@@ -72,7 +105,6 @@
         text-align: right;
         align-content: space-around;
         float: right;
-        width: 100%;
         overflow: auto;
     }
 
@@ -85,6 +117,25 @@
 /* Mobile */
 @media (max-width: 767px)
 {
+    .FullSizeContent
+    {
+        width: 100%;
+    }
+
+    .TripleSizeContent
+    {
+        width: 100%;
+    }
+
+    .DoubleSizeContent
+    {
+        width: 100%;
+    }
+
+    .SimpleContent
+    {
+        width: 50%;
+    }
     #Middle
     {
         width: inherit;
@@ -97,7 +148,6 @@
         text-align: left;
         align-content: stretch;
         float: inherit;
-        width: 100%;
         overflow: auto;
     }
     #Center
@@ -105,7 +155,6 @@
         text-align: center;
         align-content: space-around;
         float: inherit;
-        width: 100%;
         overflow: auto;
     }
     #Right
@@ -113,7 +162,6 @@
         text-align: right;
         align-content: space-around;
         float: inherit;
-        width: 100%;
         overflow: auto;
     }
 

@@ -2,6 +2,7 @@
 
 #Menu
 {
+    overflow: visible;
     white-space: nowrap;
     text-overflow: ellipsis;
     margin: 0 auto;
